@@ -28,14 +28,14 @@ const GameBoard = (props) => {
     };
 
     return (
-        <div className="gameboard">
+        <main className="gameboard">
             <button className="paper" onClick={(e) => handlePlay(e)}></button>
             <button
                 className="scissors"
                 onClick={(e) => handlePlay(e)}
             ></button>
             <button className="rock" onClick={(e) => handlePlay(e)}></button>
-        </div>
+        </main>
     );
 };
 

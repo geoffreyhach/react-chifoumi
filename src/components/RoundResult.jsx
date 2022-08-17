@@ -9,7 +9,7 @@ const RoundResult = ({ yourChoice, houseChoice, result, onPlayAgain }) => {
     };
 
     return (
-        <div className="round-result">
+        <main className="round-result">
             <div className="choices">
                 <div>
                     <button className={yourChoice}>
@@ -28,7 +28,7 @@ const RoundResult = ({ yourChoice, houseChoice, result, onPlayAgain }) => {
             <button className="play-btn" onClick={onPlayAgain}>
                 PLAY AGAIN
             </button>
-        </div>
+        </main>
     );
 };
 
