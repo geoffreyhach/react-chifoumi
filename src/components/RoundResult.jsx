@@ -12,15 +12,15 @@ const RoundResult = ({ yourChoice, houseChoice, result, onPlayAgain }) => {
         <main className="round-result">
             <div className="choices">
                 <div>
-                    <button className={yourChoice}>
+                    <div className={yourChoice}>
                         <div className="btn-hide"></div>
-                    </button>
+                    </div>
                     <p>YOUR CHOICE</p>
                 </div>
                 <div>
-                    <button className={houseChoice}>
+                    <div className={houseChoice}>
                         <div className="btn-hide"></div>
-                    </button>
+                    </div>
                     <p>THE HOUSE PICKED</p>
                 </div>
             </div>

@@ -22,19 +22,16 @@ const GameBoard = (props) => {
 
     const iaMove = () => {
         let move = Math.random();
-        if (move < 1 / 3) return "paper";
-        if (move > 2 / 3) return "rock";
-        return "scissors";
+        if (move < 1 / 3) return "card paper";
+        if (move > 2 / 3) return "card rock";
+        return "card scissors";
     };
 
     return (
         <main className="gameboard">
-            <button className="paper" onClick={(e) => handlePlay(e)}></button>
-            <button
-                className="scissors"
-                onClick={(e) => handlePlay(e)}
-            ></button>
-            <button className="rock" onClick={(e) => handlePlay(e)}></button>
+            <div className="card paper" onClick={(e) => handlePlay(e)}></div>
+            <div className="card scissors" onClick={(e) => handlePlay(e)}></div>
+            <div className="card rock" onClick={(e) => handlePlay(e)}></div>
         </main>
     );
 };
