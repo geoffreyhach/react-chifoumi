@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-chifoumi/static/css/main.ecd32c4f.css",
-    "main.js": "/react-chifoumi/static/js/main.c16f93a1.js",
+    "main.js": "/react-chifoumi/static/js/main.759aa900.js",
     "static/js/787.07f23afc.chunk.js": "/react-chifoumi/static/js/787.07f23afc.chunk.js",
     "static/media/image-rules.svg": "/react-chifoumi/static/media/image-rules.258b753fb6284dc8ae00c5b2fa7938c0.svg",
     "static/media/icon-paper.svg": "/react-chifoumi/static/media/icon-paper.8b57a6b108c1b8ae8293.svg",
@@ -11,11 +11,11 @@
     "static/media/icon-close.svg": "/react-chifoumi/static/media/icon-close.bde602ecd1a4e55e0c27137ed651e027.svg",
     "static/media/bg-triangle.svg": "/react-chifoumi/static/media/bg-triangle.77c6ca418d3751d8f717.svg",
     "main.ecd32c4f.css.map": "/react-chifoumi/static/css/main.ecd32c4f.css.map",
-    "main.c16f93a1.js.map": "/react-chifoumi/static/js/main.c16f93a1.js.map",
+    "main.759aa900.js.map": "/react-chifoumi/static/js/main.759aa900.js.map",
     "787.07f23afc.chunk.js.map": "/react-chifoumi/static/js/787.07f23afc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ecd32c4f.css",
-    "static/js/main.c16f93a1.js"
+    "static/js/main.759aa900.js"
   ]
 }
