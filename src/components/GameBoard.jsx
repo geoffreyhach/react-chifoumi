@@ -16,22 +16,35 @@ const GameBoard = (props) => {
     };
 
     const handlePlay = (e) => {
-        let playerMove = e.target.className;
+        let playerMove = e.target.getAttribute("datachoice");
+        console.log(e.target.getAttribute("datachoice"));
         gameResult(playerMove, iaMove());
     };
 
     const iaMove = () => {
         let move = Math.random();
-        if (move < 1 / 3) return "card paper";
-        if (move > 2 / 3) return "card rock";
-        return "card scissors";
+        if (move < 1 / 3) return "paper";
+        if (move > 2 / 3) return "rock";
+        return "scissors";
     };
 
     return (
         <main className="gameboard">
-            <div className="card paper" onClick={(e) => handlePlay(e)}></div>
-            <div className="card scissors" onClick={(e) => handlePlay(e)}></div>
-            <div className="card rock" onClick={(e) => handlePlay(e)}></div>
+            <div
+                className="card paper"
+                datachoice="paper"
+                onClick={(e) => handlePlay(e)}
+            ></div>
+            <div
+                className="card scissors"
+                datachoice="scissors"
+                onClick={(e) => handlePlay(e)}
+            ></div>
+            <div
+                className="card rock"
+                datachoice="rock"
+                onClick={(e) => handlePlay(e)}
+            ></div>
         </main>
     );
 };
