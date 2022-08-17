@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 class Home extends Component {
     state = {
-        score: 3,
+        score: 0,
         yourChoice: null,
         houseChoice: null,
         result: null,

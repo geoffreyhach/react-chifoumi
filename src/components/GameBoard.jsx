@@ -16,8 +16,8 @@ const GameBoard = (props) => {
     };
 
     const handlePlay = (e) => {
-        let playerMove = e.target.getAttribute("datachoice");
-        console.log(e.target.getAttribute("datachoice"));
+        let playerMove = e.target.getAttribute("data-choice");
+        console.log(e.target.getAttribute("data-choice"));
         gameResult(playerMove, iaMove());
     };
 
@@ -32,17 +32,17 @@ const GameBoard = (props) => {
         <main className="gameboard">
             <div
                 className="card paper"
-                datachoice="paper"
+                data-choice="paper"
                 onClick={(e) => handlePlay(e)}
             ></div>
             <div
                 className="card scissors"
-                datachoice="scissors"
+                data-choice="scissors"
                 onClick={(e) => handlePlay(e)}
             ></div>
             <div
                 className="card rock"
-                datachoice="rock"
+                data-choice="rock"
                 onClick={(e) => handlePlay(e)}
             ></div>
         </main>

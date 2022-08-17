@@ -4,7 +4,7 @@ const RoundResult = ({ yourChoice, houseChoice, result, onPlayAgain }) => {
     const handleResultMessage = () => {
         if (result === 1) return "YOU WIN";
         if (result === 0) return "DRAW";
-        if (result === -1) return "YOU LOOSE";
+        if (result === -1) return "YOU LOSE";
     };
 
     const getPlayerClasses = () => {
