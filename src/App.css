@@ -35,7 +35,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 5rem;
+  gap: 2rem;
   height: 100vh;
   padding : 2rem;
 }
@@ -79,12 +79,14 @@ header {
 
 .gameboard {
   position: relative;
-  background: url('/src/images/bg-triangle.svg') no-repeat center;
-  background-size: 85%;
+  background: url('/src/images/bg-triangle.svg') no-repeat center top 5rem;
+  background-size: 70%;
+  max-height: 70vh;
   width : 95%;
-  max-width: 700px;
-  flex-shrink: 0;
   aspect-ratio: 1/1;
+  max-width: 700px;
+  max-height: 65vh;
+  flex-shrink: 0;
 }
 
 .card {
@@ -152,6 +154,7 @@ header {
   border-radius: 20px;
   width : 95%;
   max-width: 700px;
+  max-height: 65vh;
   aspect-ratio: 1/1;
 }
 
