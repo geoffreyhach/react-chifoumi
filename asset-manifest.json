@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-chifoumi/static/css/main.ecd32c4f.css",
+    "main.css": "/react-chifoumi/static/css/main.b55a73ff.css",
     "main.js": "/react-chifoumi/static/js/main.3031bc46.js",
     "static/js/787.07f23afc.chunk.js": "/react-chifoumi/static/js/787.07f23afc.chunk.js",
     "static/media/image-rules.svg": "/react-chifoumi/static/media/image-rules.258b753fb6284dc8ae00c5b2fa7938c0.svg",
@@ -10,12 +10,12 @@
     "static/media/icon-rock.svg": "/react-chifoumi/static/media/icon-rock.476e90a9646a87bb3645.svg",
     "static/media/icon-close.svg": "/react-chifoumi/static/media/icon-close.bde602ecd1a4e55e0c27137ed651e027.svg",
     "static/media/bg-triangle.svg": "/react-chifoumi/static/media/bg-triangle.77c6ca418d3751d8f717.svg",
-    "main.ecd32c4f.css.map": "/react-chifoumi/static/css/main.ecd32c4f.css.map",
+    "main.b55a73ff.css.map": "/react-chifoumi/static/css/main.b55a73ff.css.map",
     "main.3031bc46.js.map": "/react-chifoumi/static/js/main.3031bc46.js.map",
     "787.07f23afc.chunk.js.map": "/react-chifoumi/static/js/787.07f23afc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecd32c4f.css",
+    "static/css/main.b55a73ff.css",
     "static/js/main.3031bc46.js"
   ]
 }
